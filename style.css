@@ -1,42 +1,69 @@
 body {
-        width: 50%;
-        height: 50%;
-        overflow-x: hidden;
-        padding: 0;
-        margin: 0;
-        font-family: montserrat;
-        font-size: 16px ;
-    }
-    
-    nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center
-  
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	padding: 0;
+	margin: 0;
+	font-family: gilda;
+	font-size: 1rem;
 }
-span{
-    color:#2A90D9 ;
+nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 30px;
+	margin: 0;
+	align-items: center;
+	column-gap: 0.5rem;
+	top:20px;
 }
-.nav-content{
-    flex-wrap: wrap;
+h1 span  {
+	color: #2a90d9;
 }
-.headertext{
-    font-family: Montserrat;
-font-size: 32px;
-font-weight: 700;
-line-height: 39.01px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-color: #EE685F ;
+.nav-content {
+	flex-wrap: wrap;
 }
-.profile{
-width: 50%;
-height: 32px;
-top: 3px;
-left: 296px;
-gap: 0px;
+.header-text {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 39.01px;
+	text-align: left;
+	left: 20px;
+	text-underline-position: from-font;
+	color: #ee685f;
 }
-.appartment-find{
-    background-image: url(assert/background-picture.png);
+.profile {
+	width: 50%;
+	height: 32px;
+	gap: 0px;
+}
+.apartment-find {
+	background-image: url(assert/background-picture.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	top:40px
+}
+.header {
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 39.01px;
+	text-align: left;
+	padding: 18px, 32px, 16px, 16px;
+	right: 40%;
+}
+.text-body {
+	max-width: 50%;
+	font-weight: 500;
+	line-height: 24px;
+	text-align: left;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+
+}
+.choose-us-header{
+ font-size: 20px;
+ text-align: center;
+ 
+
 }
