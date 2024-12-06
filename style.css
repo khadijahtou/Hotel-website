@@ -5,25 +5,22 @@ body {
 	padding: 0;
 	margin: 0;
 	font-family: gilda;
-	font-size: 1rem;
+	font-size: 18px;
 }
 nav {
 	display: flex;
 	justify-content: space-between;
-	padding: 30px 30px;
-	margin: 0;
 	align-items: center;
 	column-gap: 0.5rem;
-	top:20px;
 }
-h1 span  {
+h1 span {
 	color: #2a90d9;
 }
 .nav-content {
 	flex-wrap: wrap;
 }
 .header-text {
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 	font-size: 32px;
 	font-weight: 700;
 	line-height: 39.01px;
@@ -42,28 +39,122 @@ h1 span  {
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	top:40px
+	margin-top: 10px;
+	top:50px;
+	
 }
 .header {
 	font-size: 32px;
 	font-weight: 700;
 	line-height: 39.01px;
 	text-align: left;
-	padding: 18px, 32px, 16px, 16px;
 	right: 40%;
+	margin-left: 10px;
 }
 .text-body {
-	max-width: 50%;
+	max-width: 60%;
 	font-weight: 500;
 	line-height: 24px;
 	text-align: left;
 	text-underline-position: from-font;
 	text-decoration-skip-ink: none;
+	margin-left: 10px;
+}
+.input{
+	display: flex;
+	margin-left: 5px;
+	margin-right: 10px;
+	position: relative;
+	width: 90%;
+}
+.search-bar{
+	
+	width: 100%;
+	border: 1px solid white;
+	border-right: 0;
+	height: 45px;
+	border-radius: 50px 50px 50px 50px;
+	background-color: white;
+	outline: none;
+	padding-left: 40px;
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+.location{
+	position: absolute;
+	left:10px;
+	top:12px;
+	width: 18px;
+}
+.input-text{
+	position: absolute;
+	left: 40px;
+	bottom:16px;
+	font-size: 14px
+}
+.search{
+	position:absolute ;
+	right: 20px;
+	width: 30px;
+	bottom: 17px;
+}
+.reason{
+	background-color: #F7F7F7;
+	padding: 48px 16px 64px 16px;
+	gap: 0;
 
 }
+.choose-us{
+	margin-left: 10px;
+	padding: 10px,15px,;
+}
 .choose-us-header{
- font-size: 20px;
- text-align: center;
- 
+	font-size: 28px;
+	text-align: center;
+}
+.choose-us-body{
+	font-size: 20px;
+}
+.choose-us-details{
+	text-align: center;
+	justify-items: center;
+	display: grid;
+	margin-left: 20px;
+}
+.text-header{
+ font-size: 25px;
+	gap:10px;
+}
+.text-body{
+	font-size: 20px;
+}
+.special-offer{
+	text-align: center;
+	justify-items: center;
+	margin: 80px 16px 80px 16px;
+	padding: 12px 12px 24px 12px;
+}
+.fullimage{
+	display: flex;
+	position: relative;
 
+}
+.like{
+	position: absolute;
+	right: 20px;
+	top: 5px;
+}
+.rating{
+	position: absolute;
+	left:20px;
+	top: 5px;
+}
+.content{
+	position: relative;
+}
+.lodgename{
+	font-size: 22px;
+	width: 305px;
+	left: 0;
+	height: 24px;
 }
