@@ -13,11 +13,15 @@
 	</head>
 	<body>
 		<header>
-			<div class="nav-content"><nav id="navMenu" class="nav-menu">
-				<img src="assert/handburger menu.svg" alt="Menu">
-				<h1 id="nav-text" class="header-text"><span> Your</span>.logo</h1>
-				<img src="assert/icon.svg" alt="profile" class="profile" />
-			</nav>
+			<div class="nav-content">
+				<div class="nav-menu">
+					<img src="assert/handburger menu.svg" alt="Menu">
+					<h1 id="nav-text" class="header-text"><span> Your</span>.logo</h1>
+				</div>
+				<div class="nav-profile">
+					<img src="assert/icon.svg" alt="profile" class="profile" />
+				</div>
+			
 		</div>
 			
 		</header>
@@ -84,10 +88,10 @@
 				<div class="content">
 					<div class="details">
 						<h1 class="lodgename">Wildderness Club at Big Ceddar </h1>
-						<h5 class="date">28th October - 1st November</h5>
+						<p class="date">28th October - 1st November</p>
 					</div>
 					<div class="price">
-						<h1 class="priceperday"><span class="amount">$2016</span> /6days</h1>
+						<p class="priceperday"><span class="amount">$2016</span> /6days</p>
 					</div>
 				</div>
 				
@@ -100,11 +104,11 @@
 				</div>
 				<div class="content">
 					<div class="details">
-						<h1 class="lodgename">Wildderness Club at Big Ceddar </h1>
+						<h1 class="lodgename">Wilderness Club at Big Ceddar </h1>
 						<p class="date">28th October - 1st November</p>
 					</div>
 					<div class="price">
-						<h1 class="priceperday"><span class="amount">$2016</span> /6days</h1>
+						<p class="priceperday"><span class="amount">$2016</span> /6days</p>
 					</div>
 				</div>
 			</div>
@@ -116,19 +120,19 @@
 				</div>
 				<div class="content">
 					<div class="details">
-						<h1 class="lodgename">Wildderness Club at Big Ceddar </h1>
+						<h1 class="lodgename">Wilderness Club at Big Ceddar </h1>
 						<p class="date">28th October - 1st November</p>
 					</div>
 					<div class="price">
-						<h1 class="priceperday"><span class="amount">$2016</span> /6days</h1>
+						<p class="priceperday"><span class="amount">$2016</span> /6days</p>
 					</div>
 				</div>
 			</div>
 		</section>
 		<section class="review">
-			<h1 class="header">Reviews</h1>
+			<h1 class="review-header">Reviews</h1>
 			<div class="review-content">
-				<img src="assert/headshot.svg" alt="headshots">
+				<img class="headshot" src="assert/headshot.svg" alt="headshots">
 				<div class="reveiwdetails">
 					<p class="text">I quickly found the right tour for me, 
 						but I had a few questions about the hotel, 
@@ -136,10 +140,10 @@
 						The vacation itself was perfect. Thank you very much. 
 						I will come back again and again.</p>
 				<div class="review-source">
-					<p class="name">Jannike Borg, <span class="post"> Publisher </span></p>
+					<p class="autor"> <span class="name">Jannike Borge </span>,Publisher </p>
 				</div>
 				</div>
-				<input type="search" placeholder="More reviews" class="more-reviews">
+				<button>More Review</button>
 			</div>
 		</section>
 		<section class="post">
@@ -147,66 +151,80 @@
 				<h1 class="post-title">Recent Post</h1>
 				<div class="details">
 					<div class="card-contents">
-						<img src="assert/trip to athlens.svg" alt="View Of Athens">
-						<div class="timing">
+						<div class="card-image">
+							<img src="assert/trip to athlens.svg" alt="View Of Athens">
+						</div> 
+						
+						<div class="visit-time">
 							<p class="visit-date">May 23,2022</p>
 							<div class="time">
 								<img src="assert/bx_time-five.svg" alt="clock">
 								<p class="exact-time"> 5 minute</p>
 							</div>
+					</div>
 							<div class="trip-details">
 								<h1 class="header"> My trip to Athens</h1>
 								<p class="text-body">It would seem that in a city where Theseus, Plato and Epicurus once walked, the very idea of the subway is alien to the city, but already...</p>
 							</div>
 						</div>
 					</div>
-				</div>
-			</div>
-			<div class="card-contents">
-				<img src="assert/vilnius.svg" alt="View Of Vilnius">
-				<div class="timing">
-					<p class="visit-date">May 22,2022</p>
-					<div class="time">
-						<img src="assert/bx_time-five.svg" alt="clock">
-						<p class="exact-time"> 1 minute</p>
+					<div class="card-contents">
+						<div class="card-image">
+							<img src="assert/vilnius.svg" alt="View Of Vilnius">
+						</div>
+								<div class="visit-time">
+									<p class="visit-date">May 22,2022</p>
+									<div class="time">
+										<img src="assert/bx_time-five.svg" alt="clock">
+										<p class="exact-time"> 1 minute</p>
+									</div>
+							</div>
+							<div class="trip-details">
+								<h1 class="header"> Vilnius resorts</h1>
+								<p class="text-body">I haven't seen any resorts in Vilnius, but there are wonderful people and pubs</p>
+							</div>
+						</div> 
+						<div class="card-contents">
+							<div class="card-image">
+								<img src="assert/tips-for-flying.svg" alt="View Of Athens">
+							</div>
+							<div class="visit-time">
+									<p class="visit-date">May 20,2022</p>
+									<div class="time">
+										<img src="assert/bx_time-five.svg" alt="clock">
+										<p class="exact-time"> 15 minute</p>
+									</div>
+							</div>
+							
+								<div class="trip-details">
+									<h1 class="header">Tips for flying on a plane</h1>
+									<p class="text-body">If you have a fear of flying, here's a helpful tip: bring your co-pilot so you can take a nap while he steers the plane for you</p>
+								</div>
+							</div>
+						</div>
 					</div>
-					<div class="trip-details">
-						<h1 class="header"> Vilnius resorts</h1>
-						<p class="text-body">I haven't seen any resorts in Vilnius, but there are wonderful people and pubs</p>
 					</div>
-				</div>
+					</div>
 			</div>
-		</div>
-		<div class="card-contents">
-			<img src="assert/tips-for-flying.svg" alt="View Of Athens">
-			<div class="timing">
-				<p class="visit-date">May 20,2022</p>
-				<div class="time">
-					<img src="assert/bx_time-five.svg" alt="clock">
-					<p class="exact-time"> 15 minute</p>
 				</div>
-				<div class="trip-details">
-					<h1 class="header">Tips for flying on a plane</h1>
-					<p class="text-body">If you have a fear of flying, here's a helpful tip: bring your co-pilot so you can take a nap while he steers the plane for you</p>
-				</div>
-			</div>
-		</div>
-	</div>
+			
+			
+		
 		</section>
-		<section class="tittle-of-sections">
-			<div class="sections-a">
+		<section class="footer-sections">
+			<div class="sections-content">
 				<h1 class="text">Title of sections</h1>
 				<p class="page">Page Title</p>
 				<p class="page">Page Title</p>
 				<p class="page">Page Title</p>
 			</div>
-			<div class="sections-a">
+			<div class="sections-content">
 				<h1 class="text">Title of sections</h1>
 				<p class="page">Page Title</p>
 				<p class="page">Page Title</p>
 				<p class="page">Page Title</p>
 			</div>
-			<div class="sections-a">
+			<div class="sections-content">
 				<h1 class="text">Title of sections</h1>
 				<p class="page">Page Title</p>
 				<p class="page">Page Title</p>
