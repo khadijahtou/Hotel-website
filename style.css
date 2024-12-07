@@ -33,6 +33,10 @@ button {
 	color: white;
 	font-size: 16px;
 }
+a{
+	color: #2a90d9;
+	font-weight: bold;
+}
 .nav-content {
 	display: flex;
 	align-items: center;
@@ -76,7 +80,7 @@ button {
 .input {
 	display: flex;
 	margin-left: 5px;
-	margin-right: 10px;
+	margin-right: 5px;
 	position: relative;
 	width: 90%;
 }
@@ -234,26 +238,48 @@ button {
 	margin-left: auto;
 
 }
-
 .post-content {
 	justify-content: space-between;
 	text-align: center;
 	margin-left: 16px;
 	margin-right: 16px;
 }
-/* .trip-details{
-	display: flex;
-	flex-direction: column; */
+.footer-content{
+	background-color: #F3F2F0;
+	padding-top: 64px;
+	padding-left: 16px;
+	padding-right: 16px;
+	gap:24px;
 }
-/* }
-.timing {
-	display:
+.text{
+	font-size: 16px;
+}
+.page{
+	font-size: 14px;
+}
+.newsline{
+	font-size: 16px;
+	font-weight: bold;
+}
+.youremail{
+	font-size: 14px;
+}
+.email-input{
+	display: flex;
+	position: relative;
+}
+.email{ width: 100%;
+	height: 40px;
+	border-radius: 10px;
+	border: 1px solid #ee685f;
+
+}
+.sent{
+	background-color: #ee685f;
+	position: absolute;
+	right:2px;
+	height: 40px;
+	border: 1px 0px 0px 0px;
 	
 }
-.visit-date {
-	font-size: 14px;
-	text-align: left;
-}
-.trip-details {
-	text-align: center;
-} */ */
+
