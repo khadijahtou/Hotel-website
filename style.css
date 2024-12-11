@@ -10,6 +10,13 @@ body {
 	font-family: gilda;
 	font-size: 18px;
 }
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px 10px; */
+}
+
 nav {
 	display: flex;
 	justify-content: space-between;
@@ -20,18 +27,20 @@ nav {
 h1 span {
 	color: #2a90d9;
 }
+
 button {
-	width: 328px;
+	width: 150%;  
 	height: 50px;
 	top: 3566px;
 	left: 16px;
-	padding: 15px 109px 15px 109px;
+	padding: 15px 10px 15px 10px; 
 	outline: none;
 	border: 1px solid #ee685f;
 	border-radius: 10px 10px 10px 10px;
 	background-color: #ee685f;
 	color: white;
 	font-size: 16px;
+	
 }
 a{
 	color: #2a90d9;
@@ -39,12 +48,44 @@ a{
 }
 .nav-content {
 	display: flex;
+	justify-content: space-between;
 	align-items: center;
-	gap: 50px;
+	gap:50px;
+}
+.menu-toggle {
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: none;
 }
 .nav-menu{
 	display: flex;
-	gap: 20px;
+}
+.nav-menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-menu li {
+    margin-left: 20px;
+}
+.nav-menu a {
+    text-decoration: none;
+    color: white;
+}
+.close-menu {
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 20px;
 }
 .nav-profile{
 	width: 50%;
@@ -67,7 +108,7 @@ a{
 }
 .header {
 	font-size: 32px;
-	font-weight: 700;
+	font-weight: bold;
 	text-align: left;
 	margin-left: 10px;
 }
@@ -167,6 +208,10 @@ a{
 	text-align: center;
 	justify-items: center;
 }
+.cards{
+	border: 1px solid #E7E6EB;
+	border-radius: 12px;
+}
 .fullimage {
 	display: flex;
 	position: relative;
@@ -238,11 +283,17 @@ a{
 	margin-left: auto;
 
 }
+.more-reviewbutton{
+	text-align: center;}
 .post-content {
 	justify-content: space-between;
 	text-align: center;
 	margin-left: 16px;
 	margin-right: 16px;
+}
+.card-contents{
+	padding-left: 16px;
+	padding-right: 16px;
 }
 .footer-content{
 	background-color: #F3F2F0;

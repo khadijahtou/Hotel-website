@@ -13,9 +13,21 @@
 	</head>
 	<body>
 		<header>
-			<div class="nav-content">
+			<div class="nav-contents">
 				<div class="nav-menu">
-					<img src="assert/handburger menu.svg" alt="Menu">
+					<div class="nav-content"><nav id="navMenu" class="nav-menu">
+				
+						<button id="menuToggle" class="menu-toggle">&#9776;</button>
+								<nav id="navMenu" class="nav-menu">
+									<button id="closeMenu" class="close-menu">&times;</button>
+									<ul>
+										<li><a href="#">last minute deal</a></li>
+										<li><a href="#">About</a></li>
+										<li><a href="#">Services</a></li>
+										<li><a href="#">Contact</a></li>
+									</ul>
+								</nav>
+        </div> 
 					<h1 id="nav-text" class="header-text"><span> Your</span>.logo</h1>
 				</div>
 				<div class="nav-profile">
@@ -78,56 +90,61 @@
 			
 		</section>
 		<section class="special-offer">
-			<h1 class="text-header">Special Offer</h1>
-			<div class="cards">
-				<div class="fullimage">
-					<img src="assert/wilderness club.svg" alt="2 bed room lodge">
-					<img  class="like" src="assert/like.svg" alt="like">
-					<img class="rating" src="assert/rating.svg" alt="rating">
-				</div>
-				<div class="content">
-					<div class="details">
-						<h1 class="lodgename">Wildderness Club at Big Ceddar </h1>
-						<p class="date">28th October - 1st November</p>
+			<div class="special-offer-content">
+				<h1 class="text-header">Special Offer</h1>
+			<div class="special-offer-cards">
+				<div class="cards">
+					<div class="fullimage">
+						<img src="assert/wilderness club.svg" alt="2 bed room lodge">
+						<img  class="like" src="assert/like.svg" alt="like">
+						<img class="rating" src="assert/rating.svg" alt="rating">
 					</div>
-					<div class="price">
-						<p class="priceperday"><span class="amount">$2016</span> /6days</p>
+					<div class="content">
+						<div class="details">
+							<h1 class="lodgename">Wildderness Club at Big Ceddar </h1>
+							<p class="date">28th October - 1st November</p>
+						</div>
+						<div class="price">
+							<p class="priceperday"><span class="amount">$2016</span> /6days</p>
+						</div>
+					</div>
+					
+				</div>
+				<div class="cards">
+					<div class="fullimage">
+						<img src="assert/wilderness club2.png" alt="2 bedroom lodge">
+						<img  class="like" src="assert/like.svg" alt="like">
+						<img class="rating" src="assert/rating.svg" alt="rating">
+					</div>
+					<div class="content">
+						<div class="details">
+							<h1 class="lodgename">Wilderness Club at Big Ceddar </h1>
+							<p class="date">28th October - 1st November</p>
+						</div>
+						<div class="price">
+							<p class="priceperday"><span class="amount">$2016</span> /6days</p>
+						</div>
 					</div>
 				</div>
-				
+				<div class="cards">
+					<div class="fullimage">
+						<img src="assert/wilderness club3.png" alt="2 bedroom lodge">
+						<img  class="like" src="assert/like.svg" alt="like">
+						<img class="rating" src="assert/rating.svg" alt="rating">
+					</div>
+					<div class="content">
+						<div class="details">
+							<h1 class="lodgename">Wilderness Club at Big Ceddar </h1>
+							<p class="date">28th October - 1st November</p>
+						</div>
+						<div class="price">
+							<p class="priceperday"><span class="amount">$2016</span> /6days</p>
+						</div>
+					</div>
+				</div>
 			</div>
-			<div class="cards">
-				<div class="fullimage">
-					<img src="assert/wilderness club2.png" alt="2 bedroom lodge">
-					<img  class="like" src="assert/like.svg" alt="like">
-					<img class="rating" src="assert/rating.svg" alt="rating">
-				</div>
-				<div class="content">
-					<div class="details">
-						<h1 class="lodgename">Wilderness Club at Big Ceddar </h1>
-						<p class="date">28th October - 1st November</p>
-					</div>
-					<div class="price">
-						<p class="priceperday"><span class="amount">$2016</span> /6days</p>
-					</div>
-				</div>
 			</div>
-			<div class="cards">
-				<div class="fullimage">
-					<img src="assert/wilderness club3.png" alt="2 bedroom lodge">
-					<img  class="like" src="assert/like.svg" alt="like">
-					<img class="rating" src="assert/rating.svg" alt="rating">
-				</div>
-				<div class="content">
-					<div class="details">
-						<h1 class="lodgename">Wilderness Club at Big Ceddar </h1>
-						<p class="date">28th October - 1st November</p>
-					</div>
-					<div class="price">
-						<p class="priceperday"><span class="amount">$2016</span> /6days</p>
-					</div>
-				</div>
-			</div>
+			
 		</section>
 		<section class="review">
 			<h1 class="review-header">Reviews</h1>
@@ -143,7 +160,7 @@
 					<p class="autor"> <span class="name">Jannike Borge </span>,Publisher </p>
 				</div>
 				</div>
-				<button>More Review</button>
+				<button class="more-reviewbutton">More Review</button>
 			</div>
 		</section>
 		<section class="post">
