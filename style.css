@@ -42,6 +42,11 @@ a{
 	color: black;
 	text-decoration: none;
 }
+/* .producer-link {
+		color: #2a90d9;
+		text-decoration: solid;
+	} */
+
 input {
 	border: none;
 	outline: none;
@@ -60,14 +65,13 @@ h2 {
 	font-weight: 600;
 	color: #262729;
 }
-.nav-content {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	gap:50px;
-}
+
 .hidden {
 	display: none !important;
+}
+.nav-profile {
+	margin-left: auto;
+	display: flex;
 }
 .mobile-menu {
 	display: flex;
@@ -482,3 +486,4 @@ footer {
 	margin-top: 12px;
 	margin-bottom: 16px;
 }
+
