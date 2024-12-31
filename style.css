@@ -27,6 +27,7 @@ nav {
 	gap:16px;
 	padding: 16px;
 	position: relative;
+	width: 100%;
 }
 
 button {
@@ -126,10 +127,7 @@ h2 {
 	width: 32px;
 	height: 32px;
 }
-.nav-profile {
-	margin-left: auto;
-	display: flex;
-}
+
 .header-text {
 	font-size: 32px;
 	color: #ee685f;
