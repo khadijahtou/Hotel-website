@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Hotel-website</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Gilda+Display&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="style.css">
+		<script src="script.js"></script>
+		
+	</head>
+	<body>
+		<header>
+			<nav>
+				<button id="open-menu">
+					<svg
+						width="32"
+						height="22"
+						viewBox="0 0 32 22"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<line y1="1" x2="32" y2="1" stroke="#333333" stroke-width="2" />
+						<line y1="11" x2="32" y2="11" stroke="#333333" stroke-width="2" />
+						<line y1="21" x2="32" y2="21" stroke="#333333" stroke-width="2" />
+					</svg>
+				</button>
+				<button id="close-menu" class="hidden">
+					<svg
+						width="26"
+						height="26"
+						viewBox="0 0 26 26"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<path d="M1 25L25 1M25 25L1 1" stroke="#333333" stroke-width="2" />
+					</svg>
+				</button>
+				<h1 id="nav-text" class="header-text"><span> Your</span>.logo</h1>
+				<button class="nav-profile">
+					<img src="assert/icon.svg" alt="profile" class="profile" />
+				</button>
+				<div class="mobile-menu hidden" id="mobile-menu">
+					<ul class="mobile-menu-links">
+						<li><a href="#">Last Minute Deals</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Contacts</a></li>
+					</ul>
+					<div class="mobile-menu-icons">
+						<img src="./assert/money.png" alt="money-icon" class="money-icon" />
+						<img
+							src="./assert/language.png"
+							alt="language-icon"
+							class="language-icon"
+						/>
+					</div>
+
+					<div class="mobile-menu-social">
+						<a href="#"><img src="./assert/Phone_black.svg" alt="phone" /></a>
+						<a href="#"
+							><img src="./assert/face-book-block.svg" alt="facebook"
+						/></a>
+						<a href="#"><img src="./assert/Youtube.svg" alt="youtube" /></a>
+						<a href="#"><img src="./assert/Telegram.svg" alt="telegram" /></a>
+						<a href="#"><img src="./assert/Instagram.svg" alt="instagram" /></a>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<section class="hero-section">
+			<h1 class="hero-text">Find an apartment for your vacation</h1>
+			<p class="hero-text-body">
+				we have several thousands apartments for every taste in every corner of
+				the globe
+			</p>
+			<div class="search-bar">
+				<div class="search-wrapper">
+					<img class="location-icon" src="assert/location icon.svg" alt="" />
+					<div class="search-input-wrapper">
+						<p class="where-text">Where</p>
+						<input
+							type="search"
+							class="search-bar-input"
+							placeholder="Search Destination"
+						/>
+					</div>
+				</div>
+				<img class="search-icon" src="assert/search button.png" alt="" />
+			</div>
+		</section>
+		<section class="choose-us-section">
+			<div class="choose-us">
+				<h2 class="choose-us-header">Why choose us</h2>
+				<p class="choose-us-body">
+					The main reason is because our competitors have disgusting sites, but
+					we can' t write that here, so the text here will be different
+				</p>
+			</div>
+			<div class="choose-us-details">
+				<div class="choose-us-details-card">
+					<img src="assert/card.png" alt="payment method" />
+					<h3>Payment Method</h3>
+					<p>
+						We have a lot of them, from cryptocurrencies to barter for potatoes
+					</p>
+				</div>
+				<div class="choose-us-details-card">
+					<img src="assert/search process.png" alt="simple search" />
+					<h3>Simple Search Process</h3>
+					<p>
+						We checked it out, even the kid did it, but it was my mom's
+						friend'sson
+					</p>
+				</div>
+				<div class="choose-us-details-card">
+					<img src="assert/support.svg" alt="support" />
+					<h3>24/7 Support</h3>
+					<p>
+						Is there something you don't understand? free to call us. Phone
+						number in the footer
+					</p>
+				</div>
+				<div class="choose-us-details-card">
+					<img src="assert/friendly.svg" alt="warmly image" />
+					<h3>We are nice</h3>
+					<p>Fantasy is over, there will be something really convincing here</p>
+				</div>
+			</div>
+		</section>
+		<section class="special-offer-section">
+			<h2>Special Offers</h2>
+			<div class="special-offer-content">
+				<div class="special-offer-cards">
+					<div class="header">
+						<img
+							class="main-image"
+							src="assert/wilderness club.svg"
+							alt="2 bed room lodge"
+						/>
+						<div class="like">
+							<img src="assert/like.svg" alt="like" />
+						</div>
+						<img class="rating" src="assert/rating.svg" alt="rating" />
+					</div>
+					<div class="body">
+						<div class="details">
+							<h3 class="title">Wildderness Club at Big Ceddar</h3>
+							<p class="date">28th October - 1st November</p>
+						</div>
+						<div class="price">
+							<p class="priceperday">
+								<span class="amount">$2016</span> /6days
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="special-offer-cards">
+					<div class="header">
+						<img
+							class="main-image"
+							src="assert/wilderness club2.png"
+							alt="2 bedroom lodge"
+						/>
+						<div class="like">
+							<img src="assert/like.svg" alt="like" />
+						</div>
+						<img class="rating" src="assert/rating.svg" alt="rating" />
+					</div>
+					<div class="body">
+						<div class="details">
+							<h3 class="title">Wilderness Club at Big Ceddar</h3>
+							<p class="date">28th October - 1st November</p>
+						</div>
+						<div class="price">
+							<p class="priceperday">
+								<span class="amount">$2016</span> /6days
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="special-offer-cards">
+					<div class="header">
+						<img
+							class="main-image"
+							src="assert/wilderness club3.png"
+							alt="2 bedroom lodge"
+						/>
+						<div class="like">
+							<img src="assert/like.svg" alt="like" />
+						</div>
+						<img class="rating" src="assert/rating.svg" alt="rating" />
+					</div>
+					<div class="body">
+						<div class="details">
+							<h3 class="title">Wilderness Club at Big Ceddar</h3>
+							<p class="date">28th October - 1st November</p>
+						</div>
+						<div class="price">
+							<p class="priceperday">
+								<span class="amount">$2016</span> /6days
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="review-section">
+			<h2>Reviews</h2>
+			<div class="review-content">
+				<div class="review-card">
+					<img src="assert/headshot.svg" alt="headshots" />
+					<div>
+						<p>
+							I quickly found the right tour for me, but I had a few questions
+							about the hotel, I wrote to tech support and they answered all my
+							questions within an hour. The vacation itself was perfect. Thank
+							you very much. I will come back again and again.
+						</p>
+						<div class="review-source">
+							<p class="review-author">
+								<span class="name">Jannike Borge </span>,Publisher
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="review-card">
+					<img src="assert/lebron.svg" alt="headshots" />
+					<div>
+						<p>
+							I quickly found the right tour for me, but I had a few questions
+							about the hotel, I wrote to tech support and they answered all my
+							questions within an hour. The vacation itself was perfect. Thank
+							you very much. I will come back again and again.
+						</p>
+						<div class="review-source">
+							<p class="review-author">
+								<span class="name">LeBron Durant </span>,Flight attendant
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="review-card">
+					<img src="assert/piho-image.svg" alt="headshots" />
+					<div>
+						<p>
+							I quickly found the right tour for me, but I had a few questions
+							about the hotel, I wrote to tech support and they answered all my
+							questions within an hour. The vacation itself was perfect. Thank
+							you very much. I will come back again and again.
+						</p>
+						<div class="review-source">
+							<p class="review-author">
+								<span class="name">Kaarel Piho </span>, Chiropodist
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<button class="more-review-button">More Review</button>
+		</section>
+		<section class="recent-post-section">
+			<h2>Recent Post</h2>
+			<div class="recent-post-content">
+				<div class="recent-post-card">
+					<div class="header">
+						<img
+							src="assert/trip to athlens.svg"
+							alt="View Of Athens"
+							class="main-image"
+						/>
+						<div class="visit-info">
+							<p class="visit-date">May 23,2022</p>
+							<div class="visit-time">
+								<img src="assert/bx_time-five.svg" alt="clock" />
+								<p>1 minute</p>
+							</div>
+						</div>
+					</div>
+					<div class="body">
+						<h3 class="title">My trip to Athens</h3>
+						<p class="description">
+							It would seem that in a city where Theseus, Plato and Epicurus
+							once walked, the very idea of the subway is alien to the city, but
+							already...
+						</p>
+					</div>
+				</div>
+				<div class="recent-post-card">
+					<div class="header">
+						<img
+							src="assert/vilnius.svg"
+							alt="View Of Vilnius"
+							class="main-image"
+						/>
+						<div class="visit-info">
+							<p class="visit-date">May 22,2022</p>
+							<div class="visit-time">
+								<img src="assert/bx_time-five.svg" alt="clock" />
+								<p>1 minute</p>
+							</div>
+						</div>
+					</div>
+					<div class="body">
+						<h3 class="title">Vilnius resorts</h3>
+						<p class="description">
+							I haven't seen any resorts in Vilnius, but there are wonderful
+							people and pubs
+						</p>
+					</div>
+				</div>
+				<div class="recent-post-card">
+					<div class="header">
+						<img
+							img
+							src="assert/tips-for-flying.svg"
+							alt="plane image"
+							class="main-image"
+						/>
+						<div class="visit-info">
+							<p class="visit-date">May 20,2022</p>
+							<div class="visit-time">
+								<img src="assert/bx_time-five.svg" alt="clock" />
+								<p>15 minutes</p>
+							</div>
+						</div>
+					</div>
+					<div class="body">
+						<h3 class="title">Tips for flying on a plane</h3>
+						<p class="description">
+							If you have a fear of flying, here's a helpful tip: bring your
+							co-pilot so you can take a nap while he steers the plane for you
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer >			
+			<div class="footer-content">
+				<div class="sections-content">
+					<h1 class="text">Title of sections</h1>
+					<p>Page Title</p>
+					<p>Page Title</p>
+					<p>Page Title</p>
+				</div>
+				<div class="sections-content">
+					<h4 >Title of sections</h4>
+					<p>Page Title</p>
+					<p>Page Title</p>
+					<p>Page Title</p>
+				</div>
+				<div class="sections-content">
+					<h1>Title of sections</h1>
+					<p>Page Title</p>
+					<p>Page Title</p>
+					<p>Page Title</p>
+				</div>
+				<div class="subsribe">
+					<p class="newsline">Subscribe to Newsletter</p>
+					<p class="Youremail">Your email</p>
+					<div class="email-input">
+						<input class="email" type="email">
+						<img class="sent" src="assert/carbon_send-alt.svg" alt="send">
+					</div>
+				</div>
+				<hr />
+				<div>
+					<h1 id="footer-text" class="header-text"><span> Your</span>.logo</h1>
+					<div class="social-links">
+						<img
+							class="socials-media"
+							src="assert/Phone_black.svg"
+							alt="phone call"
+						/>
+						<img
+							class="socials-media"
+							src="assert/face-book-block.svg"
+							alt="face book"
+						/>
+						<img
+							class="socials-media"
+							src="assert/Youtube.svg"
+							alt="youtube logo"
+						/>
+						<img
+							class="socials-media"
+							src="assert/Instagram.svg"
+							alt="instagram"
+						/>
+						<img
+							class="socials-media"
+							src="assert/Telegram.svg"
+							alt="Telegram"
+						/>
+					</div>
+					<p class="producer-name">Design by <a href="" class="producer-link">Delvig</a></p>
+				</div>
+			</div>
+				
+			
+		</footer>
+	</body>
+</html>
