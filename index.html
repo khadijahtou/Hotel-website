@@ -8,7 +8,7 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Gilda+Display&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="style.css">
-		<script src="script.js"></script>
+		
 		
 	</head>
 	<body>
@@ -99,41 +99,14 @@
 					we can' t write that here, so the text here will be different
 				</p>
 			</div>
-			<div class="choose-us-details">
-				<div class="choose-us-details-card">
-					<img src="assert/card.png" alt="payment method" />
-					<h3>Payment Method</h3>
-					<p>
-						We have a lot of them, from cryptocurrencies to barter for potatoes
-					</p>
-				</div>
-				<div class="choose-us-details-card">
-					<img src="assert/search process.png" alt="simple search" />
-					<h3>Simple Search Process</h3>
-					<p>
-						We checked it out, even the kid did it, but it was my mom's
-						friend'sson
-					</p>
-				</div>
-				<div class="choose-us-details-card">
-					<img src="assert/support.svg" alt="support" />
-					<h3>24/7 Support</h3>
-					<p>
-						Is there something you don't understand? free to call us. Phone
-						number in the footer
-					</p>
-				</div>
-				<div class="choose-us-details-card">
-					<img src="assert/friendly.svg" alt="warmly image" />
-					<h3>We are nice</h3>
-					<p>Fantasy is over, there will be something really convincing here</p>
-				</div>
+			<div class="choose-us-details" id="choose-us-container">
+				
 			</div>
 		</section>
 		<section class="special-offer-section">
 			<h2>Special Offers</h2>
-			<div class="special-offer-content">
-				<div class="special-offer-cards">
+			<div class="special-offer-content" id="special-offer-content">
+				<!-- <div class="special-offer-cards">
 					<div class="header">
 						<img
 							class="main-image"
@@ -204,13 +177,13 @@
 							</p>
 						</div>
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</section>
 		<section class="review-section">
 			<h2>Reviews</h2>
-			<div class="review-content">
-				<div class="review-card">
+			<div class="review-content" id="review-content">
+				<!-- <div class="review-card">
 					<img src="assert/headshot.svg" alt="headshots" />
 					<div>
 						<p>
@@ -257,15 +230,15 @@
 							</p>
 						</div>
 					</div>
-				</div>
+				</div> -->
 			</div>
-			<button class="more-review-button">More Review</button>
+			<button class="more-review-button" id="more-reviews" >More Review</button>
 		</section>
 		<section class="recent-post-section">
 			<h2>Recent Post</h2>
-			<div class="recent-post-content">
+			<div class="recent-post-content" id="recent-post-content">
 				<div class="recent-post-card">
-					<div class="header">
+					<!-- <div class="header">
 						<img
 							src="assert/trip to athlens.svg"
 							alt="View Of Athens"
@@ -334,7 +307,7 @@
 							co-pilot so you can take a nap while he steers the plane for you
 						</p>
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</section>
 		<footer >			
@@ -361,7 +334,7 @@
 					<p class="newsline">Subscribe to Newsletter</p>
 					<p class="Youremail">Your email</p>
 					<div class="email-input">
-						<input class="email" type="email">
+						<input class="email" type="email" id="email">
 						<img class="sent" src="assert/carbon_send-alt.svg" alt="send">
 					</div>
 				</div>
@@ -401,5 +374,6 @@
 				
 			
 		</footer>
+		<script src="script.js"></script>
 	</body>
 </html>
