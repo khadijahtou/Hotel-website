@@ -126,39 +126,38 @@ if (specialOfferContent) {
 	specialOfferContent.innerHTML = content;
 }
 
-	const reviewContent = document.getElementById(review-content)
-	const reviewData = [
+const reviewContent = document.getElementById("review-content");
+const reviewData = [
 	{
 		imgSrc: "assert/headshot.svg",
 		altText: "headshots",
 		description:
-		"I quickly found the right tour for me, but I had a few questions about the hotel, I wrote to tech support and they answered all myquestions within an hour. The vacation itself was perfect. Thankyou very much. I will come back again and again.",
+			"I quickly found the right tour for me, but I had a few questions about the hotel, I wrote to tech support and they answered all myquestions within an hour. The vacation itself was perfect. Thankyou very much. I will come back again and again.",
 		author: "Jannike Borge",
 		profession: ",Publisher",
-
 	},
 	{
 		imgSrc: "assert/lebron.svg",
 		altText: "headshots",
 		description:
-		"I quickly found the right tour for me, but I had a few questionsabout the hotel, I wrote to tech support and they answered all myquestions within an hour. The vacation itself was perfect. Thank you very much. I will come back again and again.",
+			"I quickly found the right tour for me, but I had a few questionsabout the hotel, I wrote to tech support and they answered all myquestions within an hour. The vacation itself was perfect. Thank you very much. I will come back again and again.",
 		author: "LeBron Durant",
 		profession: ",Flight attendant",
 	},
 	{
 		imgSrc: "assert/piho-image.svg",
-		altText:"headshots",
+		altText: "headshots",
 		description:
-		"I quickly found the right tour for me, but I had a few questions about the hotel, I wrote to tech support and they answered all my questions within an hour. The vacation itself was perfect. Thankyou very much. I will come back again and again.",
-		author:"Kaarel Piho",
-		profession:", Chiropodist",
+			"I quickly found the right tour for me, but I had a few questions about the hotel, I wrote to tech support and they answered all my questions within an hour. The vacation itself was perfect. Thankyou very much. I will come back again and again.",
+		author: "Kaarel Piho",
+		profession: ", Chiropodist",
 	},
-	];
+];
 
-	if(reviewContent){
+if (reviewContent) {
 	let content = "";
 	reviewData.forEach((card) => {
-	content += `
+		content += `
 	<div class="review-card">
 					<img 
 					src=${card.imgSrc} 
@@ -172,92 +171,45 @@ if (specialOfferContent) {
 						</div>
 					</div>
 				</div>
-				<div class="review-card">
-					<img 
-					src=${card.imgSrc} 
-					alt=${card.altText} />
-					<div>
-						<p>
-						${card.description}
-						</p>
-						<div class="review-source">
-							<p class="review-author">
-								<span class="name">${card.author} </span>${card.profession}
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="review-card">
-					<img 
-					src=${card.imgSrc} 
-					alt=${card.altText} />
-					<div>
-						<p>
-						${card.description}
-						</p>
-						<div class="review-source">
-							<p class="review-author">
-								<span class="name">${card.author} </span>${card.profession}
-							</p>
-						</div>
-					</div>
+				
 				</div>`;
-	
-	
 	});
 
 	reviewContent.innerHTML = content;
 }
 
-const recentPostContent = getElementById("recent-post-content")
-const recentPostdata =[
-	{ 
-		imgSrc: "assert/trip to athlens.svg",
+const recentPostContent = document.getElementById("recent-post-content");
+const recentPostData = [
+	{
+		imgSrc: "assert/trip-to-athlens.svg",
 		altText: "View Of Athens",
 		date: "May 23,2022",
-		title:"My trip to Athens",
-		description:"It would seem that in a city where Theseus, Plato and Epic once walked, the very idea of the subway is alien to the city, but already..."
-},
-{
-	imgSrc: "assert/vilnius.svg",
-	altText: "View Of Vilnius",
-	date: "May 22,2022",
-	title: "Vilnius resorts",
-	description:"I haven't seen any resorts in Vilnius, but there are wonderful people and pubs",
-},
-{
-	imgSrc:"assert/tips-for-flying.svg",
-	altText:"plane image",
-	date:"May 20,2022",
-	title: "Tips for flying on a plane",
-	description:"If you have a fear of flying, here's a helpful tip: bring your co-pilot so you can take a nap while he steers the plane for you",
-},
-]
-	if (recentPostContent) {
-		let content = "";
-		recentPostdata .forEach((card) => {
-			content =`
-						<div class="header">
-						<img
-							src=${card.imgSrc}
-							alt=${card.altText}
-							class="main-image"
-						/>
-						<div class="visit-info">
-							<p class="visit-date">${card.date}</p>
-							<div class="visit-time">
-								<img src="assert/bx_time-five.svg" alt="clock" />
-								<p>1 minute</p>
-							</div>
-						</div>
-					</div>
-					<div class="body">
-						<h3 class="title">${card.title}</h3>
-						<p class="description">
-						${card.description}
-						</p>
-					</div>
-				</div>
+		title: "My trip to Athens",
+		description:
+			"It would seem that in a city where Theseus, Plato and Epic once walked, the very idea of the subway is alien to the city, but already...",
+	},
+	{
+		imgSrc: "assert/vilnius.svg",
+		altText: "View Of Vilnius",
+		date: "May 22,2022",
+		title: "Vilnius resorts",
+		description:
+			"I haven't seen any resorts in Vilnius, but there are wonderful people and pubs",
+	},
+	{
+		imgSrc: "assert/tips-for-flying.svg",
+		altText: "plane image",
+		date: "May 20,2022",
+		title: "Tips for flying on a plane",
+		description:
+			"If you have a fear of flying, here's a helpful tip: bring your co-pilot so you can take a nap while he steers the plane for you",
+	},
+];
+if (recentPostContent) {
+	let content = ''
+	recentPostData.forEach((card) => {
+		content += `
+					
 				<div class="recent-post-card">
 					<div class="header">
 						<img
@@ -280,30 +232,7 @@ const recentPostdata =[
 						</p>
 					</div>
 				</div>
-				<div class="recent-post-card">
-					<div class="header">
-						<img
-							img
-							src=${card.imgSrc}
-							alt=${card.altText}
-							class="main-image"
-						/>
-						<div class="visit-info">
-							<p class="visit-date">${card.date}</p>
-							<div class="visit-time">
-								<img src="assert/bx_time-five.svg" alt="clock" />
-								<p>15 minutes</p>
-							</div>
-						</div>
-					</div>
-					<div class="body">
-						<h3 class="title">${card.title}</h3>
-						<p class="description">
-						${card.description}
-						</p>
-					</div>
-				</div>`
-		
-	});
-	recentPostContent .innerHTML = content;
+				`
+	})
+	recentPostContent.innerHTML = content
 }

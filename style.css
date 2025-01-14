@@ -324,7 +324,8 @@ h2 {
 
 .review-content {
 	margin-top: 64px;
-	display: flex;
+	/* display: flex; 
+	flex-direction: row; */
 	overflow-x: auto;
 	scroll-snap-type: x mandatory;
 	gap: 16px;
@@ -332,12 +333,13 @@ h2 {
 
 .review-card {
 	scroll-snap-align: start;
-	display: flex;
-	flex-direction: column;
+	/* display: flex;
+	flex-direction: column;  */
 	gap: 20px;
 	justify-content: center;
-	min-width: 90%;
-	max-width: 90%;
+	text-align: center;
+	min-width: 100%;
+	max-width: 100%;
 }
 .review-card img {
 	margin: 0 auto;
@@ -349,6 +351,7 @@ h2 {
 .review-author {
 	font-size: 0.875rem;
 	font-style: italic;
+	margin-bottom: 10px;
 }
 
 .more-review-button {
